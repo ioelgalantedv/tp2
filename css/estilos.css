@@ -1,0 +1,94 @@
+main{
+    text-align: center;
+}
+form{
+    margin: auto;
+}
+#contacto h2{
+    text-align: center !important;  
+}
+
+.biografia{
+    padding: 3%;
+}
+
+body{
+    background-color: #46005C;
+    color: aliceblue;
+}
+
+.fondo{
+    background-color: aliceblue;
+    color: black;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#contacto{
+    margin: 10px;
+}
+
+h3,h4{
+    font-size: large;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+.centrar{
+    text-align: center;
+    justify-content: center
+    
+}
+
+ul {
+    list-style: none;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+#misRecitales{
+    padding-bottom: 10px;
+}
+
+.acciones a{
+    color: #46005C;
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input{
+    background-color: aliceblue !important;
+    color: black !important;
+}
+
+footer a{
+    color: azure;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.integrantes{
+    margin: 10px;
+}
+
+#fotos div{
+    margin-right: 50px;
+}
+
+.volver{
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+}
