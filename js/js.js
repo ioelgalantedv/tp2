@@ -1,17 +1,14 @@
 document.getElementById("boton").addEventListener("click", function(){
     const data = document.getElementById("recital").value;
     if(data){
-        //agregar al html y localStorage
         AgregarRecital(data)
         elimguardarRecitalLocal(data)
-        document.getElementById("ingresar").classList.add("hidden")
-        document.getElementById("inicio").classList.remove("hidden")
-
-        document.getElementById("data").value = "";
     }else{
-        alert("Por favor ingresar algo.")
+        alert("Ingresá un recital al que hayas asistido")
     }
 })
+
+cargarRecitales()
 
 function AgregarRecital(recital){
     const tarjeta = document.createElement("div")
@@ -82,5 +79,5 @@ function modificarRecitales(recitalViejo, recitalNuevo){
     }
 }
 
-cargarRecitales()
+
 
